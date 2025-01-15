@@ -1,7 +1,7 @@
 html {overflow-y: scroll}
-:root { --bgcolor: white; --fontcolor: #444; --linkcolor: #00e; --visitedcolor: #551a8b; --precolor: #fff; --prebgcolor: #000;}
-@media (prefers-color-scheme: dark) { :root { --bgcolor: black; --fontcolor: white; --linkcolor: #5bf; --visitedcolor: #ae5ee0; --precolor: #fff; --prebgcolor: #383838;}}
-body{max-width:800px;margin:40px auto;padding:0 10px;font:14px/1.5 monospace;color:var(--fontcolor); background: var(--bgcolor)}a:link{color: var(--linkcolor)}a:visited{color: var(--visitedcolor)}a:active{color: var(--visitedcolor)}h1,h2,h3{line-height:1.2}
+:root { --bgcolor: rgb(0, 0, 0); --fontcolor: #ffffff; --linkcolor: #024200; --visitedcolor: #024200; --precolor: #fff; --prebgcolor: #000;}
+@media (prefers-color-scheme: dark) { :root { --bgcolor: black; --fontcolor: white; --linkcolor: #024200; --visitedcolor: #024200; --precolor: #fff; --prebgcolor: #383838;}}
+body{max-width:76ch;margin:40px auto;padding:0 10px;font:15px/1.5 monospace;color:var(--fontcolor); background: var(--bgcolor)}a:link{color: var(--linkcolor)}a:visited{color: var(--visitedcolor)}a:active{color: var(--visitedcolor)}h1,h2,h3{line-height:1.2}
 p > code{color: var(--precolor); background: var(--prebgcolor); padding:2px}
 code{color: var(--precolor); background: var(--prebgcolor); padding:2px}
 pre{color: var(--precolor); background: var(--prebgcolor); padding:24px; overflow-x: auto}
@@ -10,3 +10,19 @@ article{padding:24px 0}
 figcaption {color: #888; font: 12px/1.5 monospace; text-align: center;}
 figure {margin: auto}
 img {display: block; max-width: 100%; height: auto; margin: auto}
+table {
+    border-width: px;
+    border-style:solid;
+    border-collapse: collapse;
+    margin-left: auto;
+      margin-right: auto;
+}
+th, tr, td {
+    border-width: 1px;
+    border-collapse: collapse;
+    border-style:solid;
+    padding: 10px;
+    /* width: 100%; */
+    
+
+}
